@@ -15,3 +15,10 @@ $professor -> salario = 6000;
 $professor -> experiencia = 10;
 
 var_dump($professor);
+
+$aluno = new Aluno();
+$aluno -> nome = 'Eleazar';
+$aluno -> idade = 31;
+$aluno -> notas = [9, 7.5, 9.5];
+
+var_dump($aluno);
