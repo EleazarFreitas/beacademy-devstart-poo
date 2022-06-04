@@ -22,6 +22,9 @@ class Produto
     }
     public function alterarValor(float $novoValor) : void
     {
+        if ($novoValor < 0) {
+            die ('ops, não é permitido valor negativo');
+        };
         $this -> valor = $novoValor;
     }
 }
